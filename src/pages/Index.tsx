@@ -299,6 +299,8 @@ const Index = () => {
                 <div className="text-center">
                   <p className="font-semibold text-lg mb-2 text-foreground">Softwares</p>
                   <p className="text-muted-foreground">Microsoft Excel (Avançado)</p>
+                  <p className="text-muted-foreground">SketchUp (Intermediário)</p>
+                  <p className="text-muted-foreground">AutoCAD (Básico)</p>
                 </div>
                 <div className="text-center">
                   <p className="font-semibold text-lg mb-2 text-foreground">Habilitação</p>
