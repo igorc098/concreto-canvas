@@ -86,10 +86,10 @@ const Index = () => {
           
           <div className="max-w-4xl mx-auto space-y-8 mb-16">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Minha carreira é construída sobre uma base dupla: a visão estratégica da <strong className="text-foreground">Administração</strong> (Unip), focada em finanças, logística e ROI, e a precisão técnica da <strong className="text-foreground">Engenharia Civil</strong> (IESB). Como empreendedor (MEI), não apenas administro, mas executo, traduzindo o planejamento em resultados de campo.
+              Minha carreira é construída sobre uma base dupla: a visão estratégica da <strong className="text-foreground">Administração</strong> (Unip, concluída em 2023), focada em finanças, logística e ROI, e a precisão técnica da <strong className="text-foreground">Engenharia Civil</strong> (IESB, 2º semestre). Como empreendedor (MEI) há mais de 4 anos, não apenas administro, mas executo, traduzindo o planejamento em resultados de campo.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Minha trajetória me direciona para a especialização nas duas áreas mais críticas da indústria: <strong className="text-foreground">Patologia das Construções</strong> — para garantir a qualidade e durabilidade do produto (concreto/asfalto) — e <strong className="text-foreground">Segurança do Trabalho</strong>, para garantir a integridade dos projetos e das equipes.
+              <strong className="text-foreground">Meu objetivo futuro</strong> é especializar-me nas duas áreas mais críticas da indústria: <strong className="text-foreground">Patologia das Construções</strong> — para garantir a qualidade e durabilidade do produto (concreto/asfalto) — e <strong className="text-foreground">Segurança do Trabalho (SST)</strong>, para garantir a integridade dos projetos e das equipes. Essas especializações são o foco da minha trajetória acadêmica e profissional nos próximos anos.
             </p>
           </div>
 
@@ -152,7 +152,7 @@ const Index = () => {
                   Prédio Residencial 2 Pavimentos
                 </p>
                 <p className="text-foreground mb-6">
-                  Gestão completa da revitalização da fachada, atuando como ponto focal entre o cliente (síndico) e a equipe de execução, gerenciando cronograma, logística de materiais (andaimes) e segurança operacional (trabalho em altura).
+                  Gestão completa da revitalização da fachada, atuando como ponto focal entre o cliente e a equipe de execução, gerenciando cronograma, logística de materiais (andaimes) e segurança operacional (trabalho em altura).
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
@@ -265,7 +265,8 @@ const Index = () => {
               <h3 className="text-3xl font-bebas mb-3 text-center tracking-wide">
                 Administração
               </h3>
-              <p className="text-center text-muted-foreground mb-4">Universidade Paulista (Unip)</p>
+              <p className="text-center text-muted-foreground mb-2">Universidade Paulista (Unip)</p>
+              <p className="text-center text-sm text-accent mb-4 font-semibold">Concluído - Janeiro/2023</p>
               <div className="bg-accent/10 p-4 rounded border-l-4 border-accent">
                 <p className="font-medium text-foreground">Expertise em Finanças e Gestão de Operações</p>
               </div>
@@ -278,9 +279,31 @@ const Index = () => {
               <h3 className="text-3xl font-bebas mb-3 text-center tracking-wide">
                 Engenharia Civil
               </h3>
-              <p className="text-center text-muted-foreground mb-4">Instituto de Educação Superior de Brasília (IESB)</p>
+              <p className="text-center text-muted-foreground mb-2">Instituto de Educação Superior de Brasília (IESB)</p>
+              <p className="text-center text-sm text-accent mb-4 font-semibold">Em andamento - 2º Semestre</p>
               <div className="bg-accent/10 p-4 rounded border-l-4 border-accent">
                 <p className="font-medium text-foreground">Foco em Materiais de Construção (Concreto/Asfalto) e Infraestrutura</p>
+              </div>
+            </Card>
+          </div>
+
+          {/* Additional Qualifications */}
+          <div className="mt-16 max-w-5xl mx-auto">
+            <Card className="p-8 border-2">
+              <h3 className="text-3xl font-bebas mb-6 text-center tracking-wide">Qualificações Adicionais</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <p className="font-semibold text-lg mb-2 text-foreground">Idiomas</p>
+                  <p className="text-muted-foreground">Inglês (Leitura e conversação fluentes)</p>
+                </div>
+                <div className="text-center">
+                  <p className="font-semibold text-lg mb-2 text-foreground">Softwares</p>
+                  <p className="text-muted-foreground">Microsoft Excel (Avançado)</p>
+                </div>
+                <div className="text-center">
+                  <p className="font-semibold text-lg mb-2 text-foreground">Habilitação</p>
+                  <p className="text-muted-foreground">CNH Categoria AB</p>
+                </div>
               </div>
             </Card>
           </div>
@@ -348,7 +371,10 @@ const Index = () => {
             Igor de Castro Goncalves
           </p>
           <p className="text-sm mt-2 text-primary-foreground/70">
-            MEI: 41.193.693/0001-63 | Administração (Unip) | Engenharia Civil (IESB)
+            Brasília, DF | (61) 99664-6092 | igorcastro098@gmail.com
+          </p>
+          <p className="text-sm mt-1 text-primary-foreground/70">
+            MEI: 41.193.693/0001-63
           </p>
           <p className="text-xs mt-4 text-primary-foreground/50">
             © 2025 Igor de Castro Goncalves. Todos os direitos reservados.
