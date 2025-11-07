@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        bebas: ['Bebas Neue', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +61,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        concrete: "hsl(var(--concrete))",
+        industrial: "hsl(var(--industrial))",
+        "safety-orange": "hsl(var(--safety-orange))",
+        "safety-yellow": "hsl(var(--safety-yellow))",
       },
       borderRadius: {
         lg: "var(--radius)",
