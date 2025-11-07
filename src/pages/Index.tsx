@@ -94,28 +94,28 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="p-8 text-center hover:shadow-industrial transition-smooth hover:scale-105 border-2">
+            <Card className="p-8 text-center hover:shadow-industrial transition-smooth hover:scale-105 border-2 bg-card shadow-lg">
               <div className="flex justify-center mb-4">
                 <LineChart className="w-16 h-16 text-accent" />
               </div>
-              <h3 className="text-2xl font-bebas mb-3 tracking-wide">Gestão de Custos</h3>
-              <p className="text-muted-foreground">Visão administrativa focada em ROI, orçamentação e controle financeiro de projetos</p>
+              <h3 className="text-2xl font-bebas mb-3 tracking-wide text-foreground">Gestão de Custos</h3>
+              <p className="text-muted-foreground font-medium">Visão administrativa focada em ROI, orçamentação e controle financeiro de projetos</p>
             </Card>
 
-            <Card className="p-8 text-center hover:shadow-industrial transition-smooth hover:scale-105 border-2">
+            <Card className="p-8 text-center hover:shadow-industrial transition-smooth hover:scale-105 border-2 bg-card shadow-lg">
               <div className="flex justify-center mb-4">
                 <Building2 className="w-16 h-16 text-accent" />
               </div>
-              <h3 className="text-2xl font-bebas mb-3 tracking-wide">Qualidade Técnica</h3>
-              <p className="text-muted-foreground">Especialização em Patologia das Construções para garantir durabilidade e excelência</p>
+              <h3 className="text-2xl font-bebas mb-3 tracking-wide text-foreground">Qualidade Técnica</h3>
+              <p className="text-muted-foreground font-medium">Especialização em Patologia das Construções para garantir durabilidade e excelência</p>
             </Card>
 
-            <Card className="p-8 text-center hover:shadow-industrial transition-smooth hover:scale-105 border-2">
+            <Card className="p-8 text-center hover:shadow-industrial transition-smooth hover:scale-105 border-2 bg-card shadow-lg">
               <div className="flex justify-center mb-4">
                 <Shield className="w-16 h-16 text-accent" />
               </div>
-              <h3 className="text-2xl font-bebas mb-3 tracking-wide">Gestão de Risco</h3>
-              <p className="text-muted-foreground">Foco em Segurança do Trabalho (SST) e prevenção de acidentes em obras</p>
+              <h3 className="text-2xl font-bebas mb-3 tracking-wide text-foreground">Gestão de Risco</h3>
+              <p className="text-muted-foreground font-medium">Foco em Segurança do Trabalho (SST) e prevenção de acidentes em obras</p>
             </Card>
           </div>
         </div>
@@ -135,7 +135,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* Project Card 1 */}
-            <Card className="overflow-hidden hover:shadow-industrial transition-smooth hover:scale-105 border-2">
+            <Card className="overflow-hidden hover:shadow-industrial transition-smooth hover:scale-105 border-2 shadow-lg bg-card">
               <div className="bg-gradient-to-br from-primary to-secondary p-6">
                 <div className="flex justify-center mb-4">
                   <Shield className="w-12 h-12 text-primary-foreground" />
@@ -147,32 +147,32 @@ const Index = () => {
                   Revitalização de Fachada
                 </p>
               </div>
-              <div className="p-6">
-                <p className="text-sm text-muted-foreground mb-4">
+              <div className="p-6 bg-card">
+                <p className="text-sm text-muted-foreground font-semibold mb-4">
                   Prédio Residencial 2 Pavimentos
                 </p>
-                <p className="text-foreground mb-6">
+                <p className="text-foreground mb-6 leading-relaxed">
                   Gestão completa da revitalização da fachada, atuando como ponto focal entre o cliente e a equipe de execução, gerenciando cronograma, logística de materiais (andaimes) e segurança operacional (trabalho em altura).
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Gestão de Custos</span>
+                    <span className="text-sm font-semibold text-foreground">Gestão de Custos</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Comunicação (Stakeholder)</span>
+                    <span className="text-sm font-semibold text-foreground">Comunicação (Stakeholder)</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Gestão de Risco/Segurança (SST)</span>
+                    <span className="text-sm font-semibold text-foreground">Gestão de Risco/Segurança (SST)</span>
                   </div>
                 </div>
               </div>
             </Card>
 
             {/* Project Card 2 */}
-            <Card className="overflow-hidden hover:shadow-industrial transition-smooth hover:scale-105 border-2">
+            <Card className="overflow-hidden hover:shadow-industrial transition-smooth hover:scale-105 border-2 shadow-lg bg-card">
               <div className="bg-gradient-to-br from-primary to-secondary p-6">
                 <div className="flex justify-center mb-4">
                   <Briefcase className="w-12 h-12 text-primary-foreground" />
@@ -184,32 +184,32 @@ const Index = () => {
                   Obra Residencial em Alvenaria
                 </p>
               </div>
-              <div className="p-6">
-                <p className="text-sm text-muted-foreground mb-4">
+              <div className="p-6 bg-card">
+                <p className="text-sm text-muted-foreground font-semibold mb-4">
                   Cronograma Crítico de 100 Dias
                 </p>
-                <p className="text-foreground mb-6">
+                <p className="text-foreground mb-6 leading-relaxed">
                   Liderança e execução de obra residencial sob um cronograma crítico de 100 dias. Responsável pela coordenação de todas as frentes de serviço (fundações, alvenaria, instalações e acabamentos) e gestão de riscos operacionais (chuvas, fornecedores).
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Gerenciamento de Cronograma</span>
+                    <span className="text-sm font-semibold text-foreground">Gerenciamento de Cronograma</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Liderança de Equipe</span>
+                    <span className="text-sm font-semibold text-foreground">Liderança de Equipe</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Gestão de Riscos</span>
+                    <span className="text-sm font-semibold text-foreground">Gestão de Riscos</span>
                   </div>
                 </div>
               </div>
             </Card>
 
             {/* Project Card 3 */}
-            <Card className="overflow-hidden hover:shadow-industrial transition-smooth hover:scale-105 border-2">
+            <Card className="overflow-hidden hover:shadow-industrial transition-smooth hover:scale-105 border-2 shadow-lg bg-card">
               <div className="bg-gradient-to-br from-primary to-secondary p-6">
                 <div className="flex justify-center mb-4">
                   <Award className="w-12 h-12 text-primary-foreground" />
@@ -221,25 +221,25 @@ const Index = () => {
                   Diagnóstico e Impermeabilização
                 </p>
               </div>
-              <div className="p-6">
-                <p className="text-sm text-muted-foreground mb-4">
+              <div className="p-6 bg-card">
+                <p className="text-sm text-muted-foreground font-semibold mb-4">
                   Área de 80 m²
                 </p>
-                <p className="text-foreground mb-6">
+                <p className="text-foreground mb-6 leading-relaxed">
                   Gestão completa de reforma complexa, iniciada pelo diagnóstico de patologias (infiltrações). O escopo incluiu reforço pontual, aplicação de sistemas de impermeabilização e renovação de acabamentos.
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Orçamentação e Aquisições</span>
+                    <span className="text-sm font-semibold text-foreground">Orçamentação e Aquisições</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Logística (Prevenção de Perdas)</span>
+                    <span className="text-sm font-semibold text-foreground">Logística (Prevenção de Perdas)</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <span className="text-sm font-medium">Controle de Qualidade (CQ)</span>
+                    <span className="text-sm font-semibold text-foreground">Controle de Qualidade (CQ)</span>
                   </div>
                 </div>
               </div>
@@ -258,7 +258,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <Card className="p-8 hover:shadow-industrial transition-smooth hover:scale-105 border-2">
+            <Card className="p-8 hover:shadow-industrial transition-smooth hover:scale-105 border-2 shadow-lg bg-card">
               <div className="flex justify-center mb-6">
                 <GraduationCap className="w-16 h-16 text-accent" />
               </div>
@@ -272,7 +272,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="p-8 hover:shadow-industrial transition-smooth hover:scale-105 border-2">
+            <Card className="p-8 hover:shadow-industrial transition-smooth hover:scale-105 border-2 shadow-lg bg-card">
               <div className="flex justify-center mb-6">
                 <Building2 className="w-16 h-16 text-accent" />
               </div>
@@ -289,22 +289,22 @@ const Index = () => {
 
           {/* Additional Qualifications */}
           <div className="mt-16 max-w-5xl mx-auto">
-            <Card className="p-8 border-2">
-              <h3 className="text-3xl font-bebas mb-6 text-center tracking-wide">Qualificações Adicionais</h3>
+            <Card className="p-8 border-2 shadow-lg bg-card">
+              <h3 className="text-3xl font-bebas mb-6 text-center tracking-wide text-foreground">Qualificações Adicionais</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <p className="font-semibold text-lg mb-2 text-foreground">Idiomas</p>
-                  <p className="text-muted-foreground">Inglês (Leitura e conversação fluentes)</p>
+                  <p className="font-bold text-lg mb-3 text-foreground">Idiomas</p>
+                  <p className="text-muted-foreground font-medium">Inglês (Leitura e conversação fluentes)</p>
                 </div>
                 <div className="text-center">
-                  <p className="font-semibold text-lg mb-2 text-foreground">Softwares</p>
-                  <p className="text-muted-foreground">Microsoft Excel (Avançado)</p>
-                  <p className="text-muted-foreground">SketchUp (Intermediário)</p>
-                  <p className="text-muted-foreground">AutoCAD (Básico)</p>
+                  <p className="font-bold text-lg mb-3 text-foreground">Softwares</p>
+                  <p className="text-muted-foreground font-medium">Microsoft Excel (Avançado)</p>
+                  <p className="text-muted-foreground font-medium">SketchUp (Intermediário)</p>
+                  <p className="text-muted-foreground font-medium">AutoCAD (Básico)</p>
                 </div>
                 <div className="text-center">
-                  <p className="font-semibold text-lg mb-2 text-foreground">Habilitação</p>
-                  <p className="text-muted-foreground">CNH Categoria AB</p>
+                  <p className="font-bold text-lg mb-3 text-foreground">Habilitação</p>
+                  <p className="text-muted-foreground font-medium">CNH Categoria AB</p>
                 </div>
               </div>
             </Card>
